@@ -21,7 +21,7 @@
   }
 
   const 引流 = [
-  "https://muyu.love/",
+  "https://www.yourworld.fun/",
   ]
 
   const CUSTOM_CSS = `#pio-container {
@@ -84,13 +84,13 @@
 
   // 用到的库
   const LIBS = [
-    'https://cdn.muyu.love/Blog/Handsome/Live2d/live2d/lib/pio.css',
-    'https://cdn.muyu.love/Blog/Handsome/Live2d/dist/TweenLite.js',
-    'https://cdn.muyu.love/Blog/Handsome/Live2d/cubismcore/live2dcubismcore.min.js',
-    'https://cdn.muyu.love/Blog/Handsome/Live2d/dist/pixi.min.js',
-    'https://cdn.muyu.love/Blog/Handsome/Live2d/dist/cubism4.min.js',
-    'https://cdn.muyu.love/Blog/Handsome/Live2d/live2d/lib/pio_sdk4.js',
-    'https://cdn.muyu.love/Blog/Handsome/Live2d/live2d/lib/pio.js'
+    'https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/live2d/lib/pio.css',
+    'https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/dist/TweenLite.js',
+    'https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/cubismcore/live2dcubismcore.min.js',
+    'https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/dist/pixi.min.js',
+    'https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/dist/cubism4.min.js',
+    'https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/live2d/lib/pio_sdk4.js',
+    'https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/live2d/lib/pio.js'
   ]
 
   const reqArr = LIBS.map(src => loadSource(src))
@@ -138,8 +138,8 @@
   night: "toggleNightMode()",
     model: [
       // 待加载的模型列表
-      "https://cdn.muyu.love/Blog/Handsome/Live2d/live2d/Ava/Ava.model3.json",
-      "https://cdn.muyu.love/Blog/Handsome/Live2d/live2d/Diana/Diana.model3.json",
+      "https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/live2d/Diana/Diana.model3.json",
+      "https://cdn.jsdelivr.net/gh/xiaobailoves/Typecho__YourWorld@master/handsome/Live2d/live2d/Ava/Ava.model3.json",
     ],
     tips: true, // 时间问好
     onModelLoad: onModelLoad // 模型加载完成回调
