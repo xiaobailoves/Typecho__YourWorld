@@ -13,7 +13,7 @@ ArticleObj = leancloud.Object.extend("Article");
 
 def GetFlink():
     info("获取友链列表")
-    return get(environ["FLINK_API"]).json();
+    return get(environ["https://www.yourworld.fun/pyq/qwq.php"]).json();
 
 def GetRSSLink(link):
     link = link.replace("https://","").replace("/",'');
